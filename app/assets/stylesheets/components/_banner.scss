@@ -1,0 +1,44 @@
+.banner{
+  position: relative;
+  min-height: 90vh;
+  height: 100%;
+  width: 100%;
+  background-color: #151021;
+}
+
+.banner-icons{
+  position: absolute;
+  top: 25%;
+  z-index: 1;
+}
+
+.banner-icons--right{
+  left: 32px;
+}
+
+.banner-icons--left{
+  right: 32px;
+}
+
+.banner-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  font-size: 32px;
+  h1, svg{
+    z-index: 100;
+    width: 100%;
+  }
+  h1{
+    margin: 0px;
+    text-align: center;
+  }
+}
+
+.banner-bottom{
+  width: 100%;
+  height: 100%;
+}

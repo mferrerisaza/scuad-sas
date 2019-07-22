@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
 
 // Define fonts for body and headers
-$body-font: "Open Sans", "Helvetica", "sans-serif";
-$headers-font: "Raleway", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -14,3 +12,31 @@ $headers-font: "Raleway", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+@font-face {
+  font-family: "GT Walsheim";
+  src: font-url('gt-walsheim/gt-walsheim-web.eot');
+  src: font-url('gt-walsheim/gt-walsheim-web.svg') format('svg'),
+       font-url('gt-walsheim/gt-walsheim-web.woff') format('woff'),
+       font-url('gt-walsheim/gt-walsheim-web.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "GT Walsheim";
+  src: font-url('gt-walsheim/gt-walsheim-bold-web.eot');
+  src: font-url('gt-walsheim/gt-walsheim-bold-web.svg') format('svg'),
+       font-url('gt-walsheim/gt-walsheim-bold-web.woff') format('woff'),
+       font-url('gt-walsheim/gt-walsheim-bold-web.ttf') format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "GT Walsheim";
+  src: font-url('gt-walsheim/gt-walsheim-light-web.eot');
+  src: font-url('gt-walsheim/gt-walsheim-light-web.svg') format('svg'),
+       font-url('gt-walsheim/gt-walsheim-light-web.ttf') format('truetype');
+  font-weight: lighter;
+}
+
+$gt-walsheim: "Gt Walsheim";
+
+$body-font: $gt-walsheim, "Open Sans", "Helvetica", "sans-serif";
+$headers-font: $gt-walsheim, "Raleway", "Helvetica", "sans-serif";

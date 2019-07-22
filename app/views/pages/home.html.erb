@@ -1,2 +1,14 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner">
+  <div class="banner-icons banner-icons--right">
+    <%= render "shared/icons" %>
+  </div>
+  <div class="banner-content">
+    <%= render "shared/logo" %>
+    <h1>Fábrica De Startups</h1>
+    <a href="#" class="banner-cta">contáctenos</a>
+  </div>
+  <div class="banner-icons banner-icons--left">
+    <%= render "shared/icons" %>
+  </div>
+</div>
+<%= render "shared/banner-bottom" %>

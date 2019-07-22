@@ -1,0 +1,15 @@
+.banner-cta{
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #CD5A22 11.05%, #FFF855 100%);
+  padding: 16px 32px;
+  border-radius: 60px;
+  margin-top: 16px;
+  &:active, &:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+  }
+}
